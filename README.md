@@ -52,19 +52,49 @@ Configuration of VS Code for Python development, Jupyter notebooks, and course w
 
 ---
 
-## 📅 Week 2 — Review of Matrix Operations & Linear Systems
+## 📅 Week 2 — Matrix Operations & Linear Systems
 
-(Content to be released)
+This week introduces matrices as fundamental mathematical objects and develops the core tools needed to work with linear
+systems. We focus on matrix notation, operations, and the logic of solving systems of equations, progressing from
+conceptual understanding to practical computational implementation in Python.
+
+Students will learn how matrices represent linear mappings, how matrix properties influence solution strategies, and why
+factorization-based solvers are central to numerical computation.
 
 ### 📖 Lectures
 
-- Lecture slides (HTML / PDF)
-- Jupyter notebook(s)
+#### Matrix Representation and Operations
+
+This lecture introduces matrices as linear mappings, covering notation, indexing, matrix–vector products, and
+fundamental matrix operations used throughout structural analysis.
+
+- 🌐 **Slides (HTML):** [L2_1_matrices.slides.html](Lectures/L2/L2_1_matrices.slides.html)
+- 📄 **Slides (PDF):** [L2_1_matrices.pdf](Lectures/L2/L2_1_matrices.pdf)
+- 📓 **Notebook:** [L2_1_matrices.ipynb](Lectures/L2/L2_1_matrices.ipynb)
+
+#### Linear System Solution Methods
+
+This lecture develops direct and iterative methods for solving linear systems, emphasizing elimination, factorization,
+and solver efficiency for large-scale engineering problems.
+
+- 🌐 **Slides (HTML):** [L2_2_solvers.slides.html](Lectures/L2/L2_2_solvers.slides.html)
+- 📄 **Slides (PDF):** [L2_2_solvers.pdf](Lectures/L2/L2_2_solvers.pdf)
+- 📓 **Notebook:** [L2_2_solvers.ipynb](Lectures/L2/L2_2_solvers.ipynb)
+
+### Extra In-Class Code
+
+- [L2_OperationCount.ipynb](Code/L2/L2_OperationCount.ipynb)
+  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bruun-Automation-Research-Lab/CEE6501/blob/main/Code/L2/L2_OperationCount.ipynb)
+- [L2_IterationPractice.ipynb](Code/L2/L2_IterationPractice.ipynb)
+  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bruun-Automation-Research-Lab/CEE6501/blob/main/Code/L2/L2_IterationPractice.ipynb)
 
 ### 📝 Assignments
 
+See Lecture 1 for how to complete assignments guide.
+
 - ✍️ **Written Assignment:** [A2_written.md](Assignments/A2_written.md)
-- Coding assignment
+- 💻 **Coding Assignment:**
+  [A2_code.ipynb](Assignments/A2_code.ipynb)[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bruun-Automation-Research-Lab/CEE6501/blob/main/Assignments/A2_code.ipynb)
 
 ---
 
