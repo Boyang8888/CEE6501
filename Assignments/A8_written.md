@@ -43,6 +43,6 @@ written by you and you must understand it**. If you used outside help, add a sho
 
 ---
 
-## Question 1 — Indeterminate Beam (DSM by Hand)
+## Question 1
 
 For MT = 3, prove that Q2 is defined only in terms of the FEFs, not in terms of bending stiffness
