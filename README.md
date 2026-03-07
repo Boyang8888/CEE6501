@@ -228,9 +228,7 @@ Use standard submission naming from Week 1.
 
 #### Assignment Files
 
-- ✍️ **Written Assignment:** [A4_written.md](Assignments/A4_written.md)
-- 💻 **Coding Assignment:** [A4_code.ipynb](Assignments/A4_code.ipynb)
-  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bruun-Automation-Research-Lab/CEE6501/blob/main/Assignments/A4_code.ipynb)
+No Assignment this week, study for the midterm.
 
 ---
 
@@ -440,6 +438,44 @@ Use standard submission naming from Week 1.
 
   [A8_code.ipynb](Assignments/A8_code.ipynb)  
   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bruun-Automation-Research-Lab/CEE6501/blob/main/Assignments/A8_code.ipynb)
+
+---
+
+---
+
+## 📅 Week 9 — Support Settlement, Temperature & Fit-up Forces, Intro to 3D
+
+This week...
+
+Kassimali – Chapter 7, §7.1–7.3
+
+### 📖 Lectures
+
+#### Part 1 — Support Settlement
+
+This lecture introduces **support settlements and other prescribed displacements** within the DSM framework f. We derive
+the modified equilibrium equations and show how settlements appear as **equivalent joint loads**, allowing truss, beam
+or frame problems to be solved using the same stiffness-based workflow we have been using thus far in the class.
+
+- 🌐 **Slides (HTML):** [L9_1_SupportSettlement.slides.html](Lectures/L9/L9_1_SupportSettlement.slides.html)
+- 📄 **Slides (PDF):** [L9_1_SupportSettlement.pdf](Lectures/L9/L9_1_SupportSettlement.pdf)
+- 📓 **Notebook:** [L9_1_SupportSettlement.ipynb](Lectures/L9/L9_1_SupportSettlement.ipynb)
+
+#### Part 2 — Support Displacement, Temperature & Fit-up Forces
+
+This Lecture...
+
+#### Part 3 — Introduction to 3D
+
+This Lecture...
+
+### Extra In-Class Code
+
+- TBD
+
+### 📝 Assignments
+
+No Assignment this week, study for the 2nd midterm.
 
 ---
 
