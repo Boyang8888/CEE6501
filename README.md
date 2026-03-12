@@ -228,9 +228,7 @@ Use standard submission naming from Week 1.
 
 #### Assignment Files
 
-- ✍️ **Written Assignment:** [A4_written.md](Assignments/A4_written.md)
-- 💻 **Coding Assignment:** [A4_code.ipynb](Assignments/A4_code.ipynb)
-  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bruun-Automation-Research-Lab/CEE6501/blob/main/Assignments/A4_code.ipynb)
+No Assignment this week, study for the midterm.
 
 ---
 
@@ -401,7 +399,7 @@ This week extends the **Direct Stiffness Method (DSM)** to handle two important 
 releases** and **support settlements**. We examine how hinges modify the stiffness relationships in frame elements, and
 how **prescribed support displacements** can be incorporated into the standard DSM formulation.
 
-Kassimali – Chapter 7, §7.1–7.3
+Kassimali – Chapter 7, §7.1
 
 ### 📖 Lectures
 
@@ -415,15 +413,9 @@ restraints can be used to stabilize the formulation when rotational stiffness is
 - 📄 **Slides (PDF):** [L8_1_FramesReleases.pdf](Lectures/L8/L8_1_FramesReleases.pdf)
 - 📓 **Notebook:** [L8_1_FramesReleases.ipynb](Lectures/L8/L8_1_FramesReleases.ipynb)
 
-#### Part 2 — Support Settlement
+#### Part 2 — N/A
 
-This lecture introduces **support settlements and other prescribed displacements** within the DSM framework f. We derive
-the modified equilibrium equations and show how settlements appear as **equivalent joint loads**, allowing truss, beam
-or frame problems to be solved using the same stiffness-based workflow we have been using thus far in the class.
-
-- 🌐 **Slides (HTML):** [L8_2_SupportSettlement.slides.html](Lectures/L8/L8_2_SupportSettlement.slides.html)
-- 📄 **Slides (PDF):** [L8_2_SupportSettlement.pdf](Lectures/L8/L8_2_SupportSettlement.pdf)
-- 📓 **Notebook:** [L8_2_SupportSettlement.ipynb](Lectures/L8/L8_2_SupportSettlement.ipynb)
+Shorter lecture since CEE graduate student visitation day
 
 ### Extra In-Class Code
 
@@ -440,6 +432,78 @@ Use standard submission naming from Week 1.
 
   [A8_code.ipynb](Assignments/A8_code.ipynb)  
   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bruun-Automation-Research-Lab/CEE6501/blob/main/Assignments/A8_code.ipynb)
+
+---
+
+---
+
+## 📅 Week 9 — Support Settlement, Temperature & Fit-up Forces
+
+This week, we extend the Direct Stiffness Method to handle several important sources of internal force that arise
+**without changing the basic stiffness workflow**. We study prescribed support motion, temperature-induced actions, and
+fabrication / fit-up errors, and show how each can be incorporated through equivalent nodal force terms. We also wrap up
+with information and review material for **Midterm #2**.
+
+Kassimali – Chapter 7, §7.3 & 7.5
+
+### 📖 Lectures
+
+#### Part 1 — Support Settlement
+
+This lecture introduces **support settlements and other prescribed displacements** within the DSM framework. Starting
+directly from the **partitioned global equilibrium equations**, we show how prescribed support motion enters the system
+naturally through the term $ \mathbf{K}_{fr}\mathbf{u}\_r $, without requiring the additional element-level force
+manipulations used for member loads, thermal effects, or fabrication errors. If desired, for consistency with the
+fixed-end-force viewpoint, the term $-\mathbf{K}_{fr}\mathbf{u}\_r$ can also be interpreted as an equivalent nodal load
+acting on the free DOFs.
+
+- 📄 **Slides (PDF):** [L9_1_SupportSettlement.pdf](Lectures/L9/L9_1_SupportSettlement.pdf)
+- 📓 **Notebook:** [L9_1_SupportSettlement.ipynb](Lectures/L9/L9_1_SupportSettlement.ipynb)
+
+#### Part 2 — Temperature & Fit-up Forces
+
+This lecture introduces **temperature effects and fabrication / fit-up errors** in structural analysis. We show how
+uniform temperature changes, temperature gradients, and initial fabrication errors create member deformations that are
+restrained by the structure, leading to **fixed-end forces** and equivalent nodal load terms. These effects are then
+incorporated into the DSM in exactly the same way as other element-level force contributions.
+
+- 📄 **Slides (PDF):** [L9_2_Temp_and_Fab.pdf](Lectures/L9/L9_2_Temp_and_Fab.pdf)
+- 📓 **Notebook:** [L9_2_Temp_and_Fab.ipynb](Lectures/L9/L9_2_Temp_and_Fab.ipynb)
+
+#### Part 3 — Midterm #2 Information
+
+Slides providing details about **Midterm #2**, including topic coverage, exam format, and key concepts to review. It is
+intended to help you organize your studying and connect the major ideas from the recent beam and frame lectures,
+including member loads, releases, support settlements, and temperature / fabrication effects.
+
+- 📄 **Slides (PDF):** [L9_3_InfoMidterm.pdf](Lectures/L9/L9_3_InfoMidterm.pdf)
+- 📓 **Notebook:** [L9_3_InfoMidterm.ipynb](Lectures/L9/L9_3_InfoMidterm.ipynb)
+
+### Extra In-Class Code
+
+- [InClass_Exercise.ipynb](Code/L9/InClass_Exercise.ipynb)
+
+### 📝 Assignments
+
+No Assignment this week, study for the 2nd midterm.
+
+---
+
+---
+
+## 📅 Week 10 — Support Settlement, Temperature & Fit-up Forces, Intro to 3D
+
+This week...
+
+Chapter 5, §5.1 (3D coordinate transform)
+
+### 📖 Lectures
+
+This week includes an in-class midterm examination (~2.0 hours).
+
+#### Part 1 — The DSM for Space Frames
+
+This lecture...
 
 ---
 
