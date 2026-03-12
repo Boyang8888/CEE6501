@@ -399,7 +399,7 @@ This week extends the **Direct Stiffness Method (DSM)** to handle two important 
 releases** and **support settlements**. We examine how hinges modify the stiffness relationships in frame elements, and
 how **prescribed support displacements** can be incorporated into the standard DSM formulation.
 
-Kassimali – Chapter 7, §7.1–7.3
+Kassimali – Chapter 7, §7.1
 
 ### 📖 Lectures
 
@@ -413,15 +413,9 @@ restraints can be used to stabilize the formulation when rotational stiffness is
 - 📄 **Slides (PDF):** [L8_1_FramesReleases.pdf](Lectures/L8/L8_1_FramesReleases.pdf)
 - 📓 **Notebook:** [L8_1_FramesReleases.ipynb](Lectures/L8/L8_1_FramesReleases.ipynb)
 
-#### Part 2 — Support Settlement
+#### Part 2 — N/A
 
-This lecture introduces **support settlements and other prescribed displacements** within the DSM framework f. We derive
-the modified equilibrium equations and show how settlements appear as **equivalent joint loads**, allowing truss, beam
-or frame problems to be solved using the same stiffness-based workflow we have been using thus far in the class.
-
-- 🌐 **Slides (HTML):** [L8_2_SupportSettlement.slides.html](Lectures/L8/L8_2_SupportSettlement.slides.html)
-- 📄 **Slides (PDF):** [L8_2_SupportSettlement.pdf](Lectures/L8/L8_2_SupportSettlement.pdf)
-- 📓 **Notebook:** [L8_2_SupportSettlement.ipynb](Lectures/L8/L8_2_SupportSettlement.ipynb)
+Shorter lecture since CEE graduate student visitation day
 
 ### Extra In-Class Code
 
@@ -447,13 +441,13 @@ Use standard submission naming from Week 1.
 
 This week...
 
-Kassimali – Chapter 7, §7.1–7.3
+Kassimali – Chapter 7, §7.3 & 7.5
 
 ### 📖 Lectures
 
 #### Part 1 — Support Settlement
 
-This lecture introduces **support settlements and other prescribed displacements** within the DSM framework f. We derive
+This lecture introduces **support settlements and other prescribed displacements** within the DSM framework. We derive
 the modified equilibrium equations and show how settlements appear as **equivalent joint loads**, allowing truss, beam
 or frame problems to be solved using the same stiffness-based workflow we have been using thus far in the class.
 
@@ -461,21 +455,39 @@ or frame problems to be solved using the same stiffness-based workflow we have b
 - 📄 **Slides (PDF):** [L9_1_SupportSettlement.pdf](Lectures/L9/L9_1_SupportSettlement.pdf)
 - 📓 **Notebook:** [L9_1_SupportSettlement.ipynb](Lectures/L9/L9_1_SupportSettlement.ipynb)
 
-#### Part 2 — Support Displacement, Temperature & Fit-up Forces
+#### Part 2 — Temperature & Fit-up Forces
 
-This Lecture...
+This lecture...
 
-#### Part 3 — Introduction to 3D
-
-This Lecture...
+- 🌐 **Slides (HTML):** [L9_2_Temp_and_Fab.slides.html](Lectures/L9/L9_2_Temp_and_Fab.slides.html)
+- 📄 **Slides (PDF):** [L9_2_Temp_and_Fab.pdf](Lectures/L9/L9_2_Temp_and_Fab.pdf)
+- 📓 **Notebook:** [L9_2_Temp_and_Fab.ipynb](Lectures/L9/L9_2_Temp_and_Fab.ipynb)
 
 ### Extra In-Class Code
 
-- TBD
+- [InClass_Exercise.ipynb](Code/L9/InClass_Exercise.ipynb)
 
 ### 📝 Assignments
 
 No Assignment this week, study for the 2nd midterm.
+
+---
+
+---
+
+## 📅 Week 10 — Support Settlement, Temperature & Fit-up Forces, Intro to 3D
+
+This week...
+
+Chapter 5, §5.1 (3D coordinate transform)
+
+### 📖 Lectures
+
+This week includes an in-class midterm examination (~2.0 hours).
+
+#### Part 1 — The DSM for Space Frames
+
+This lecture...
 
 ---
 
