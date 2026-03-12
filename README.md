@@ -439,10 +439,9 @@ Use standard submission naming from Week 1.
 
 ## 📅 Week 9 — Support Settlement, Temperature & Fit-up Forces
 
-This week, we extend the Direct Stiffness Method to handle several important sources of internal force that arise
-**without changing the basic stiffness workflow**. We study prescribed support motion, temperature-induced actions, and
-fabrication / fit-up errors, and show how each can be incorporated through equivalent nodal force terms. We also wrap up
-with information and review material for **Midterm #2**.
+This week, we extend the Direct Stiffness Method (DSM) to handle several important sources of internal force that arise. We study prescribed support motion, temperature-induced actions, and
+fabrication / fit-up errors, and show how each can be incorporated into the DSM workflow. We also wrap up
+with information and review material for Midterm #2.
 
 Kassimali – Chapter 7, §7.3 & 7.5
 
@@ -450,12 +449,7 @@ Kassimali – Chapter 7, §7.3 & 7.5
 
 #### Part 1 — Support Settlement
 
-This lecture introduces **support settlements and other prescribed displacements** within the DSM framework. Starting
-directly from the **partitioned global equilibrium equations**, we show how prescribed support motion enters the system
-naturally through the term $ \mathbf{K}_{fr}\mathbf{u}\_r $, without requiring the additional element-level force
-manipulations used for member loads, thermal effects, or fabrication errors. If desired, for consistency with the
-fixed-end-force viewpoint, the term $-\mathbf{K}_{fr}\mathbf{u}\_r$ can also be interpreted as an equivalent nodal load
-acting on the free DOFs.
+This lecture introduces support settlements and other prescribed displacements within the DSM framework. We derive the modified equilibrium equations and show how prescribed displacements enter the system naturally through the partitioned stiffness equations, without introducing fixed-end forces or requiring the additional element-level force manipulations used for member loads, thermal effects, or fabrication errors. For consistency with the fixed-end-force terms used in those other cases, one can also view this contribution as an equivalent load acting on the free degrees of freedom.
 
 - 📄 **Slides (PDF):** [L9_1_SupportSettlement.pdf](Lectures/L9/L9_1_SupportSettlement.pdf)
 - 📓 **Notebook:** [L9_1_SupportSettlement.ipynb](Lectures/L9/L9_1_SupportSettlement.ipynb)
